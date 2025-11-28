@@ -1,11 +1,14 @@
-# Reports plugin for CakePHP
-Generazione Report basati su query SQL per CakePHP
-
-## Copyright
-- iMpronta 2022
+# Orariscuole plugin for CakePHP
 
 ## Installation
-- Checkout https://github.com/impronta48/cake-sql-reports in your plugin folder
-- Add $this->addPlugin('Reports'); in your src/Application.php
-- Create the sql database as in Reports/db/1__Report.sql
+This plugin is installed simply by creating a folder starting with a Capital Letter in the /plugins folders
+
+```bash
+cd plugins
+git clone https://bitbucket.org/mobilitymanagerplatform/emma-orariscuole/
+```
+
+## Creation of specific users
+- Agenzia o Azienda di Trasporto: agenzia@nomail.com
+- Preside : preside@nomail.com
 
